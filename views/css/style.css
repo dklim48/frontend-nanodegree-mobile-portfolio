@@ -32,7 +32,8 @@ form {
 .mover {
   position: fixed;
   width: 256px;
-  z-index: -1;
+  /** changed to backface visibility for some improvements.*/
+  backface-visibility: hidden;
 }
 
 .randomPizzaContainer {
